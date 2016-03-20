@@ -1,10 +1,10 @@
 <head>
-  <title>CarRental</title>
+  <title>Training</title>
 </head>
 
 <body>
  	<div class="simple-gallery container">
-  	<h1><b>CarRental</b></h1>
+  	<h1><b>Training</b></h1>
   	{{> Images}}
    	</div>
 </body>
@@ -14,6 +14,7 @@
 	{{#each images 5}}
 		{{> Image}}
 	{{/each}}
+	{{im}}
 </template>
 
 <template name="Image">
@@ -24,7 +25,7 @@
 			<footer class="title">
 				{{title}}
 			</footer>
-		</figure>
+	</figure>
 
 <div class="modal fade" id="modal-{{_id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
@@ -36,7 +37,7 @@
 				<footer class="title">
 					{{title}}
 				</footer>
-			</figure>
+		</figure>
     </div>
   </div>
 </div>

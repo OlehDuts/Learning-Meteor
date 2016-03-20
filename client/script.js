@@ -9,6 +9,7 @@ Template.Images.helpers({
         });
     } 
     return array;
-  }
+  },
+  im: "http://lorempixel.com/100/100"
 
 });
